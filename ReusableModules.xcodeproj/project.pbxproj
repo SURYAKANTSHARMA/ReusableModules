@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A06E98B2191C3F400BE4FEF /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */; };
+		9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */; };
 		9AA5EE03215E50ED0037CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */; };
 		9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE04215E50ED0037CBAA /* ViewController.swift */; };
 		9AA5EE08215E50ED0037CBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5EE06215E50ED0037CBAA /* Main.storyboard */; };
@@ -75,6 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
 		9AA5EDFF215E50ED0037CBAA /* ReusableModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA5EE04215E50ED0037CBAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -263,6 +267,8 @@
 				9AA5EE6E215E53CB0037CBAA /* RangeSliderTrackerLayer.swift */,
 				9AA5EE6F215E53CB0037CBAA /* RatingControl.swift */,
 				9AA5EE70215E53CB0037CBAA /* SwiftyButton.swift */,
+				9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */,
+				9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */,
 			);
 			path = Wrappers;
 			sourceTree = "<group>";
@@ -403,6 +409,7 @@
 				9AA5EE81215E53F90037CBAA /* ContainerViewController.swift in Sources */,
 				9AA5EE4F215E519D0037CBAA /* Foundation+Extension.swift in Sources */,
 				9AA5EE5A215E519D0037CBAA /* UITableView+Extension.swift in Sources */,
+				9A06E98B2191C3F400BE4FEF /* BaseViewModel.swift in Sources */,
 				9AA5EE52215E519D0037CBAA /* String+Localization.swift in Sources */,
 				9AA5EE73215E53CB0037CBAA /* BaseViewController.swift in Sources */,
 				9AA5EE50215E519D0037CBAA /* GMSMapView+Extension.swift in Sources */,
@@ -427,6 +434,7 @@
 				9AA5EE89215E543D0037CBAA /* MenuItemCell.swift in Sources */,
 				9AA5EE79215E53CB0037CBAA /* ProgressView.swift in Sources */,
 				9AA5EE75215E53CB0037CBAA /* CacheImageView.swift in Sources */,
+				9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */,
 				9AA5EE7C215E53CB0037CBAA /* RangeSliderTrackerLayer.swift in Sources */,
 				9AA5EE7E215E53CB0037CBAA /* SwiftyButton.swift in Sources */,
 				9AA5EE71215E53CB0037CBAA /* BadgedBarButtonItem.swift in Sources */,

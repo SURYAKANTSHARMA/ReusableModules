@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A06E98B2191C3F400BE4FEF /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */; };
+		9A3A3345219D3BE0007327C8 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A3344219D3BE0007327C8 /* UIView+AutoLayout.swift */; };
 		9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */; };
 		9AA5EE03215E50ED0037CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */; };
 		9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE04215E50ED0037CBAA /* ViewController.swift */; };
@@ -78,6 +79,7 @@
 
 /* Begin PBXFileReference section */
 		9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		9A3A3344219D3BE0007327C8 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 		9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
 		9AA5EDFF215E50ED0037CBAA /* ReusableModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				9AA5EE46215E519D0037CBAA /* UITextField+Extenstion.swift */,
 				9AA5EE47215E519D0037CBAA /* UIView+Extension.swift */,
 				9AA5EE48215E519D0037CBAA /* UIViewController+Extension.swift */,
+				9A3A3344219D3BE0007327C8 /* UIView+AutoLayout.swift */,
 			);
 			name = Extensions;
 			path = ../../../Projects/Driver/Driver/Helper/Extensions;
@@ -414,6 +417,7 @@
 				9AA5EE73215E53CB0037CBAA /* BaseViewController.swift in Sources */,
 				9AA5EE50215E519D0037CBAA /* GMSMapView+Extension.swift in Sources */,
 				9AA5EE4A215E519D0037CBAA /* CLLocation+Extenstion.swift in Sources */,
+				9A3A3345219D3BE0007327C8 /* UIView+AutoLayout.swift in Sources */,
 				9AA5EE0B215E50ED0037CBAA /* ReusableModules.xcdatamodeld in Sources */,
 				9AA5EE51215E519D0037CBAA /* String+Extension.swift in Sources */,
 				9AA5EE4B215E519D0037CBAA /* CLPlacemark+Extention.swift in Sources */,

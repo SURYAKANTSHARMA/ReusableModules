@@ -36,7 +36,7 @@ final class UserDefaultHelper {
     }
     
     static func deleteCountryCode() {
-        UserDefaults.standard.removeObject(forKey: Defaults.countryCode.rawValue)
+        UserDefaults.standard.removeObject(forKey: Defaults.sampleKey.rawValue)
     }
     
 }

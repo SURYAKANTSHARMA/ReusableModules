@@ -21,3 +21,5 @@ extension CaseCountable where Self: RawRepresentable, Self.RawValue == Int {
         return count
     }
 }
+
+

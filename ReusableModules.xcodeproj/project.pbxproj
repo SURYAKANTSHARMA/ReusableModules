@@ -35,6 +35,7 @@
 		9A313AB121B2913500BA18E8 /* CoreData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB021B2913500BA18E8 /* CoreData+Extension.swift */; };
 		9A313AB321B2916200BA18E8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */; };
 		9A313AB521B2918B00BA18E8 /* UIScreen+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */; };
+		9A313AB721B2928500BA18E8 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB621B2928500BA18E8 /* Optional+Extension.swift */; };
 		9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */; };
 		9AA5EE03215E50ED0037CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */; };
 		9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE04215E50ED0037CBAA /* ViewController.swift */; };
@@ -111,6 +112,7 @@
 		9A313AB021B2913500BA18E8 /* CoreData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Extension.swift"; sourceTree = "<group>"; };
 		9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extenstion.swift"; sourceTree = "<group>"; };
+		9A313AB621B2928500BA18E8 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
 		9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
 		9AA5EDFF215E50ED0037CBAA /* ReusableModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				9A313A9521B28CEA00BA18E8 /* UITableView+Extension.swift */,
 				9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */,
 				9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */,
+				9A313AB621B2928500BA18E8 /* Optional+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				9A313AB121B2913500BA18E8 /* CoreData+Extension.swift in Sources */,
 				9AA5EE82215E53F90037CBAA /* SideMenuViewController.swift in Sources */,
 				9A313A9821B28CEA00BA18E8 /* CLLocation+Extenstion.swift in Sources */,
+				9A313AB721B2928500BA18E8 /* Optional+Extension.swift in Sources */,
 				9A313AAD21B28CEA00BA18E8 /* UITableView+Extension.swift in Sources */,
 				9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */,
 				9A313A9E21B28CEA00BA18E8 /* Date+Extenstion.swift in Sources */,

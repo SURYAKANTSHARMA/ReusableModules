@@ -19,13 +19,13 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate, MenuTog
     var blackView: UIView!
     fileprivate var frameOfImageView: CGRect!
     
-    /**
-     *  Height of status bar + navigation bar (if navigation bar exist)
-     */
-    var topbarHeight: CGFloat {
-        return UIApplication.shared.statusBarFrame.size.height +
-            (self.navigationController?.navigationBar.frame.height ?? 0.0)
-    }
+//    /**
+//     *  Height of status bar + navigation bar (if navigation bar exist)
+//     */
+//    var topbarHeight: CGFloat {
+//        return UIApplication.shared.statusBarFrame.size.height +
+//            (self.navigationController?.navigationBar.frame.height ?? 0.0)
+//    }
     
     /**
      *  noDataLabel shows in center of screen with message text if data from server is not available for particular case

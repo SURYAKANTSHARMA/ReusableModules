@@ -70,3 +70,18 @@ extension Dictionary where Value == Any {
         return value
     }
 }
+
+
+
+
+infix operator ???: NilCoalescingPrecedence
+public func ???<T> (optional: T?,
+                    defaultValue:  @autoclosure () -> String) -> String {
+    switch optional {
+    case .some(let value):
+        return String(describing: value)
+    case .none:
+        return defaultValue()
+    }
+}
+

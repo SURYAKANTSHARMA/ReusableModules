@@ -35,7 +35,6 @@ class Dynamic<T> {
 }
 
 struct BrokenRule {
-    
     var propertyName :String
     var message :String
 }

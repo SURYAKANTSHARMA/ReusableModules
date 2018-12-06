@@ -107,6 +107,14 @@ extension String {
           fatalError("Unknown type")
         }
     }
+   
+    var fileExtension: String? {
+        guard let idx = index(of: ".") else {
+            return nil
+        }
+        let extenstionStart = index(after: idx)
+        return String(self[extenstionStart...])
+    }
 }
 
 

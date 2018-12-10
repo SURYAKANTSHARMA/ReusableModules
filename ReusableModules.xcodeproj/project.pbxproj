@@ -36,6 +36,7 @@
 		9A313AB321B2916200BA18E8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */; };
 		9A313AB521B2918B00BA18E8 /* UIScreen+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */; };
 		9A313AB721B2928500BA18E8 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A313AB621B2928500BA18E8 /* Optional+Extension.swift */; };
+		9A35C20921BE6CDF00D637E0 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A35C20821BE6CDF00D637E0 /* Validator.swift */; };
 		9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */; };
 		9AA5EE03215E50ED0037CBAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */; };
 		9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE04215E50ED0037CBAA /* ViewController.swift */; };
@@ -113,6 +114,7 @@
 		9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extenstion.swift"; sourceTree = "<group>"; };
 		9A313AB621B2928500BA18E8 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		9A35C20821BE6CDF00D637E0 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
 		9AA5EDFF215E50ED0037CBAA /* ReusableModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA5EE02215E50ED0037CBAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				9AA5EE70215E53CB0037CBAA /* SwiftyButton.swift */,
 				9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */,
 				9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */,
+				9A35C20821BE6CDF00D637E0 /* Validator.swift */,
 			);
 			path = Wrappers;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				9AA5EE81215E53F90037CBAA /* ContainerViewController.swift in Sources */,
 				9A313AA021B28CEA00BA18E8 /* UITextField+Extenstion.swift in Sources */,
 				9A06E98B2191C3F400BE4FEF /* BaseViewModel.swift in Sources */,
+				9A35C20921BE6CDF00D637E0 /* Validator.swift in Sources */,
 				9A313AA921B28CEA00BA18E8 /* GMSMapView+Extension.swift in Sources */,
 				9AA5EE73215E53CB0037CBAA /* BaseViewController.swift in Sources */,
 				9A313A9D21B28CEA00BA18E8 /* UIImage+Extension.swift in Sources */,

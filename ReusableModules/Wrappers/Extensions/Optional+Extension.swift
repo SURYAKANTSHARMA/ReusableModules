@@ -85,3 +85,19 @@ public func ???<T> (optional: T?,
     }
 }
 
+/**
+ Function for equating two optionals
+ e.g
+ if textField.text == "Placeholder Text"
+ */
+
+func == <T>(lhs: T?, rhs: T?) -> Bool {
+    switch (lhs, rhs)  {
+    case let (x?, y?):
+        return x == y
+    case (nil, nil):
+        return true
+    default:
+        return false
+    }
+}

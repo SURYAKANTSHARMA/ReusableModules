@@ -49,3 +49,18 @@ class Extenstion_Tests: XCTestCase {
     }
 
 }
+
+
+class PasswordValidatorTests: XCTestCase {
+    
+    func testLengthRequirement() throws  {
+        XCTAssertThrowsError(try validate("adfs", using: Validator.password))
+        XCTAssertThrowsError(try validate("adfas1212", using: Validator.password))
+        XCTAssertNoThrow(try validate("adfsfsA12d", using: Validator.password))
+    }
+    
+    func testUppercasedCharacterRequirement() throws {
+        XCTAssertThrowsError(try validate("abcdefg", using: .password))
+        try validate("Abcdefg", using: .password)
+    }
+}

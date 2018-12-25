@@ -9,10 +9,21 @@
 import UIKit
 
 extension UINavigationController {
+    
     var previousViewController: UIViewController? {
         let viewControllers = self.viewControllers
         return viewControllers[safe: self.viewControllers.count - 2]
     }
+    
+    func popToVC<T: UIViewController>(kind: T.Type) {
+        for vc in viewControllers {
+            if let _ = vc as? T {
+                _ = self.popToViewController(vc, animated: true)
+                return
+            }
+        }
+    }
+    
 }
 
 

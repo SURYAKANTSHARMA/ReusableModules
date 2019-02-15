@@ -65,6 +65,7 @@
 		9AA5EE81215E53F90037CBAA /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE7F215E53F80037CBAA /* ContainerViewController.swift */; };
 		9AA5EE82215E53F90037CBAA /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE80215E53F80037CBAA /* SideMenuViewController.swift */; };
 		9AA5EE89215E543D0037CBAA /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE87215E543C0037CBAA /* MenuItemCell.swift */; };
+		9AE052652216C96A0006E80D /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE052642216C96A0006E80D /* CGSize+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +151,7 @@
 		9AA5EE80215E53F80037CBAA /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		9AA5EE87215E543C0037CBAA /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		9AA5EE88215E543C0037CBAA /* MenuItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
+		9AE052642216C96A0006E80D /* CGSize+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				9A313AB221B2916200BA18E8 /* UIButton+Extension.swift */,
 				9A313AB421B2918B00BA18E8 /* UIScreen+Extenstion.swift */,
 				9A313AB621B2928500BA18E8 /* Optional+Extension.swift */,
+				9AE052642216C96A0006E80D /* CGSize+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				9A313A9621B28CEA00BA18E8 /* UIAlertController+Extension.swift in Sources */,
 				9A313AA221B28CEA00BA18E8 /* String+Extension.swift in Sources */,
 				9AA5EE7A215E53CB0037CBAA /* RangeSlider.swift in Sources */,
+				9AE052652216C96A0006E80D /* CGSize+Extension.swift in Sources */,
 				9AA5EE61215E53500037CBAA /* Application+Helper.swift in Sources */,
 				9AA5EE7D215E53CB0037CBAA /* RatingControl.swift in Sources */,
 				9A313AB321B2916200BA18E8 /* UIButton+Extension.swift in Sources */,

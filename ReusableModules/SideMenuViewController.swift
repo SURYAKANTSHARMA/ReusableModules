@@ -32,10 +32,11 @@ enum MenuItemType: Int, CaseCountable {
 }
 
 class SideMenuViewController: BaseViewController {
-   override func viewDidLoad() {
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
         
-     }
+    }
     func fetchProfile() {
      
     }

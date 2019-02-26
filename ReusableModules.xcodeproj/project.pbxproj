@@ -65,6 +65,8 @@
 		9AA5EE81215E53F90037CBAA /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE7F215E53F80037CBAA /* ContainerViewController.swift */; };
 		9AA5EE82215E53F90037CBAA /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE80215E53F80037CBAA /* SideMenuViewController.swift */; };
 		9AA5EE89215E543D0037CBAA /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5EE87215E543C0037CBAA /* MenuItemCell.swift */; };
+		9AC2E0D822252556001CE3A3 /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2E0D722252555001CE3A3 /* SegueHandler.swift */; };
+		9AC2E0DA22252A00001CE3A3 /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2E0D922252A00001CE3A3 /* ValidatingTextField.swift */; };
 		9AE052652216C96A0006E80D /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE052642216C96A0006E80D /* CGSize+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +153,8 @@
 		9AA5EE80215E53F80037CBAA /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		9AA5EE87215E543C0037CBAA /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		9AA5EE88215E543C0037CBAA /* MenuItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
+		9AC2E0D722252555001CE3A3 /* SegueHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
+		9AC2E0D922252A00001CE3A3 /* ValidatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatingTextField.swift; sourceTree = "<group>"; };
 		9AE052642216C96A0006E80D /* CGSize+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -295,6 +299,8 @@
 				9A06E98A2191C3F400BE4FEF /* BaseViewModel.swift */,
 				9A8004AC219A9D1100BDF849 /* UserDefaultHelper.swift */,
 				9A35C20821BE6CDF00D637E0 /* Validator.swift */,
+				9AC2E0D722252555001CE3A3 /* SegueHandler.swift */,
+				9AC2E0D922252A00001CE3A3 /* ValidatingTextField.swift */,
 			);
 			path = Wrappers;
 			sourceTree = "<group>";
@@ -449,6 +455,7 @@
 				9AA5EE82215E53F90037CBAA /* SideMenuViewController.swift in Sources */,
 				9A313A9821B28CEA00BA18E8 /* CLLocation+Extenstion.swift in Sources */,
 				9A313AB721B2928500BA18E8 /* Optional+Extension.swift in Sources */,
+				9AC2E0DA22252A00001CE3A3 /* ValidatingTextField.swift in Sources */,
 				9A313AAD21B28CEA00BA18E8 /* UITableView+Extension.swift in Sources */,
 				9AA5EE05215E50ED0037CBAA /* ViewController.swift in Sources */,
 				9A313A9E21B28CEA00BA18E8 /* Date+Extenstion.swift in Sources */,
@@ -460,6 +467,7 @@
 				9AA5EE89215E543D0037CBAA /* MenuItemCell.swift in Sources */,
 				9A313AA121B28CEA00BA18E8 /* UIViewController+Extension.swift in Sources */,
 				9AA5EE79215E53CB0037CBAA /* ProgressView.swift in Sources */,
+				9AC2E0D822252556001CE3A3 /* SegueHandler.swift in Sources */,
 				9AA5EE75215E53CB0037CBAA /* CacheImageView.swift in Sources */,
 				9A8004AD219A9D1100BDF849 /* UserDefaultHelper.swift in Sources */,
 				9A313A9C21B28CEA00BA18E8 /* UIView+Extension.swift in Sources */,

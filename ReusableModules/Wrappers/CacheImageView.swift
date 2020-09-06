@@ -24,6 +24,7 @@ class CacheImageView: UIImageView {
       return indicator
     }()
     
+    var urlString = String()
     
     func loadImage(urlString: String, completion: (()-> Void)? = nil) {
         
@@ -55,7 +56,10 @@ class CacheImageView: UIImageView {
                 CacheImageView.sharedCache.setObject(image
                     , forKey: urlString as NSString)
                 DispatchQueue.main.async {
-                    self.image = image
+                    // Check before setting the image is the same the same url now as well
+                    if urlString == self.urlString {
+                       self.image = image
+                    }
                     completion?()
                 }
             }
